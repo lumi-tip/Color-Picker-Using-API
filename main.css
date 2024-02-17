@@ -1,6 +1,17 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: montserrat, sans-serif;
+}
+
+nav{
+    padding: 5px;
+    text-align: center;
+    background-color: #24B1E0;
+}
+
+h1{
+    font-size: 30px;
 }
 
 form{
@@ -16,12 +27,15 @@ form{
     border-radius: 5px;
     box-shadow: 0 1px 10px #e5e7eb;
     outline: none;
+    height: 50px;
 }
 
 select{
     border: 1px solid #e5e7eb;
     border-radius: 5px;
     box-shadow: 0 1px 10px #e5e7eb;
+    padding: 10px;
+    font-size:15px
 }
 
 select:focus{
@@ -34,16 +48,20 @@ button{
     background: none;
     border-radius: 5px;
     box-shadow: 0 1px 10px #e5e7eb;
+    padding: 10px;
+    font-size:15px
 }
 
 #colors-wrapper{
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 #colors-wrapper p{
     text-align: center;
+    font-weight: bold;
+    font-size:15px;
 }
 
 .color{
